@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b0e14;
+  color: #f4f6fa;
+}
+
+::selection {
+  background-color: #5eead4;
+  color: #0b0e14;
+}
+
+/* visible keyboard focus, kept consistent across the site */
+:focus-visible {
+  outline: 2px solid #5eead4;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.bg-noise {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1px
+  );
+  background-size: 18px 18px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.font-feature-tnum {
+  font-feature-settings: "tnum" 1;
+}
