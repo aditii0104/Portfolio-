@@ -49,6 +49,6 @@ export const projects: Project[] = [
     tech: ["Python", "Gemini API", "Async", "Full-Stack"],
     github: "https://github.com/your-github-username/fashiongen-ai-studio",
     demo: "",
-    demoLabel: "Live Demo",
+    demoLabel: "Github Repo",
   },
 ];
