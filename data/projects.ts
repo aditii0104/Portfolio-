@@ -11,8 +11,8 @@ export const projects: Project[] = [
       "A full-stack BI agent that turns natural language into validated SQL over DuckDB, streaming results back over SSE as they're computed. Tested against the Instacart Market Basket Analysis dataset, with multi-table joins across a large relational schema, and a React frontend for live querying.",
     tech: ["FastAPI", "Gemini API", "DuckDB", "Text-to-SQL", "React", "SSE"],
     github: "https://github.com/your-github-username/conversational-bi-agent",
-    demo: "",
-    demoLabel: "Hugging Face Space",
+    demo: "https://conversational-bi-agent.onrender.com/",
+    demoLabel: "Live Demo",
   },
   {
     slug: "taskledger",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     tech: ["React", "Vite", "Node.js", "Express", "MongoDB", "Mongoose"],
     github: "https://github.com/aditii0104/Task-Tracker", // Update this link if necessary
     demo: "https://task-tracker-lime-mu.vercel.app/", 
-    demoLabel: "Live",
+    demoLabel: "Live Demo",
   },
   {
     slug: "contract-clause-extraction",
